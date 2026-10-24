@@ -1,0 +1,16 @@
+path: /Users/faridjafarli/.cache/kagglehub/datasets/thepbordin/indoor-object-detection/versions/1
+train: train/images
+val: valid/images
+test: test/images
+nc: 10
+names:
+- door
+- cabinetDoor
+- refrigeratorDoor
+- window
+- chair
+- table
+- cabinet
+- couch
+- openedDoor
+- pole

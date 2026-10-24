@@ -1,0 +1,221 @@
+{
+  "model": "yolov9s",
+  "device": "MPS: Apple M2 Max GPU",
+  "epochs_planned": 60,
+  "epochs_run": 56,
+  "best_epoch": 36,
+  "train_minutes": 56.7,
+  "imgsz": 640,
+  "batch": 16,
+  "val": {
+    "P": 0.4285,
+    "R": 0.511,
+    "mAP50": 0.4946,
+    "mAP50-95": 0.3365,
+    "F1 (середнє по класах)": 0.4321,
+    "conf при max F1": 0.1882
+  },
+  "test": {
+    "P": 0.3605,
+    "R": 0.3823,
+    "mAP50": 0.3683,
+    "mAP50-95": 0.196,
+    "F1 (середнє по класах)": 0.3163,
+    "conf при max F1": 0.1341
+  },
+  "val_classification_accuracy": 0.9486,
+  "test_classification_accuracy": 0.8836,
+  "val_per_class": {
+    "door": {
+      "images": 63,
+      "instances": 97,
+      "P": 0.4242,
+      "R": 0.6186,
+      "F1": 0.5033,
+      "mAP50": 0.5415,
+      "mAP50-95": 0.3406
+    },
+    "cabinetDoor": {
+      "images": 99,
+      "instances": 765,
+      "P": 0.7165,
+      "R": 0.7987,
+      "F1": 0.7554,
+      "mAP50": 0.794,
+      "mAP50-95": 0.4434
+    },
+    "refrigeratorDoor": {
+      "images": 85,
+      "instances": 192,
+      "P": 0.6808,
+      "R": 0.7778,
+      "F1": 0.7261,
+      "mAP50": 0.7712,
+      "mAP50-95": 0.5188
+    },
+    "window": {
+      "images": 39,
+      "instances": 91,
+      "P": 0.3675,
+      "R": 0.4286,
+      "F1": 0.3957,
+      "mAP50": 0.3442,
+      "mAP50-95": 0.2173
+    },
+    "chair": {
+      "images": 24,
+      "instances": 49,
+      "P": 0.4993,
+      "R": 0.5918,
+      "F1": 0.5417,
+      "mAP50": 0.5801,
+      "mAP50-95": 0.3255
+    },
+    "table": {
+      "images": 30,
+      "instances": 40,
+      "P": 0.3636,
+      "R": 0.3,
+      "F1": 0.3288,
+      "mAP50": 0.2398,
+      "mAP50-95": 0.1168
+    },
+    "cabinet": {
+      "images": 28,
+      "instances": 32,
+      "P": 0.4345,
+      "R": 0.4062,
+      "F1": 0.4199,
+      "mAP50": 0.4168,
+      "mAP50-95": 0.2856
+    },
+    "couch": {
+      "images": 1,
+      "instances": 1,
+      "P": 0.2245,
+      "R": 1.0,
+      "F1": 0.3667,
+      "mAP50": 0.995,
+      "mAP50-95": 0.995
+    },
+    "openedDoor": {
+      "images": 13,
+      "instances": 13,
+      "P": 0.224,
+      "R": 0.0769,
+      "F1": 0.1145,
+      "mAP50": 0.1164,
+      "mAP50-95": 0.0695
+    },
+    "pole": {
+      "images": 4,
+      "instances": 9,
+      "P": 0.3495,
+      "R": 0.1111,
+      "F1": 0.1686,
+      "mAP50": 0.1468,
+      "mAP50-95": 0.0525
+    }
+  },
+  "test_per_class": {
+    "door": {
+      "images": 25,
+      "instances": 34,
+      "P": 0.3744,
+      "R": 0.3824,
+      "F1": 0.3784,
+      "mAP50": 0.3571,
+      "mAP50-95": 0.1737
+    },
+    "cabinetDoor": {
+      "images": 42,
+      "instances": 179,
+      "P": 0.5973,
+      "R": 0.5363,
+      "F1": 0.5652,
+      "mAP50": 0.5102,
+      "mAP50-95": 0.1935
+    },
+    "refrigeratorDoor": {
+      "images": 1,
+      "instances": 2,
+      "P": 0.1582,
+      "R": 1.0,
+      "F1": 0.2732,
+      "mAP50": 0.995,
+      "mAP50-95": 0.696
+    },
+    "window": {
+      "images": 49,
+      "instances": 63,
+      "P": 0.4724,
+      "R": 0.5238,
+      "F1": 0.4968,
+      "mAP50": 0.445,
+      "mAP50-95": 0.2618
+    },
+    "chair": {
+      "images": 38,
+      "instances": 87,
+      "P": 0.3755,
+      "R": 0.4253,
+      "F1": 0.3988,
+      "mAP50": 0.3395,
+      "mAP50-95": 0.1728
+    },
+    "table": {
+      "images": 41,
+      "instances": 47,
+      "P": 0.2881,
+      "R": 0.3191,
+      "F1": 0.3028,
+      "mAP50": 0.1855,
+      "mAP50-95": 0.0667
+    },
+    "cabinet": {
+      "images": 44,
+      "instances": 52,
+      "P": 0.5802,
+      "R": 0.1863,
+      "F1": 0.282,
+      "mAP50": 0.2907,
+      "mAP50-95": 0.1703
+    },
+    "couch": {
+      "images": 31,
+      "instances": 58,
+      "P": 0.2622,
+      "R": 0.3448,
+      "F1": 0.2979,
+      "mAP50": 0.2149,
+      "mAP50-95": 0.0886
+    },
+    "openedDoor": {
+      "images": 18,
+      "instances": 20,
+      "P": 0.349,
+      "R": 0.05,
+      "F1": 0.0875,
+      "mAP50": 0.1445,
+      "mAP50-95": 0.0637
+    },
+    "pole": {
+      "images": 3,
+      "instances": 8,
+      "P": 0.1477,
+      "R": 0.0554,
+      "F1": 0.0806,
+      "mAP50": 0.2007,
+      "mAP50-95": 0.0732
+    }
+  },
+  "reliable_classes_val": [
+    "cabinetDoor",
+    "refrigeratorDoor",
+    "chair",
+    "door"
+  ],
+  "reliable_classes_val_and_test": [
+    "cabinetDoor"
+  ]
+}
